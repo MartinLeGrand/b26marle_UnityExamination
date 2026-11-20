@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2870786147634278549}
   - component: {fileID: 3936708215028178198}
   - component: {fileID: 6271820822658791363}
+  - component: {fileID: 5037806804825290931}
   m_Layer: 0
   m_Name: Crate
   m_TagString: Untagged
@@ -208,7 +209,7 @@ MonoBehaviour:
     m_TrimEdge: 0.06
     m_FlipX: 0
     m_FlipY: 0
-    m_InitialTrim: 0.06
+    m_InitialTrim: 0
   m_CastingOption: 1
   m_PreviousTrimEdge: 0.06
   m_PreviousEdgeProcessing: 1
@@ -220,3 +221,15 @@ MonoBehaviour:
     - rid: 5916312001377992780
       type: {class: ShadowShape2DProvider_SpriteRenderer, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
       data: 
+--- !u!114 &5037806804825290931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2936110996125965902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66fef682c11ec0f48b51f94d1e135f7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SelfDestructScript
