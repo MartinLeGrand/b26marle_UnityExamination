@@ -7,7 +7,7 @@ public class Buzzsaw : MonoBehaviour
     {
         if (other.TryGetComponent<SelfDestructScript>(out SelfDestructScript selfDestructScript))
         {
-            Destroy(other.gameObject);
+            other.SendMessage("SelfDestruct", SendMessageOptions.DontRequireReceiver);
         }
     }
 }
