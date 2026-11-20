@@ -1036,8 +1036,13 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'In this game you play the happy little cube man of the forest.
 
+
     Your
-    goal is to jump around and be happy, and spread that happiness.'
+    name is lil guy.
+
+
+    Your goal is to jump around and be happy, and spread that
+    happiness.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a161cb53d7c21144388d1a17cac11896, type: 2}
   m_sharedMaterial: {fileID: 1968309929240470523, guid: a161cb53d7c21144388d1a17cac11896, type: 2}
