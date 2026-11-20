@@ -580,6 +580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4700737665208807256, guid: e24b64bdd286e0a49b9f5ea425c555c0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 23846c61e3e81b04bb840ddf1bea5141, type: 2}
     - target: {fileID: 4859491929464103748, guid: e24b64bdd286e0a49b9f5ea425c555c0, type: 3}
       propertyPath: m_ActionEvents.Array.size
       value: 19
